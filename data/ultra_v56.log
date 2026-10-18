@@ -1,0 +1,614 @@
+2026-07-25 05:19:31.527 | INFO     | backend.main:lifespan:43 - ════════════════════════════════════════════════════════════
+2026-07-25 05:19:31.527 | INFO     | backend.main:lifespan:44 -   ULTRA V5.6 ENTERPRISE ENGINE — Starting Up
+2026-07-25 05:19:31.528 | INFO     | backend.main:lifespan:45 - ════════════════════════════════════════════════════════════
+2026-07-25 05:19:31.533 | INFO     | backend.task_runner:start:138 - ⚙️ TaskRunner active
+2026-07-25 05:19:31.533 | SUCCESS  | backend.main:lifespan:72 - ✅ All subsystems online
+2026-07-25 05:19:31.534 | INFO     | backend.market_agent:run_forever:315 - 🚀 MarketAgent active
+2026-07-25 05:19:32.310 | SUCCESS  | backend.bot_control:start:43 - 🤖 Telegram bot active — monitoring commands
+2026-07-25 05:19:34.298 | WARNING  | backend.market_agent:fetch_crypto_prices:145 - CoinGecko fallback: Client error '400 Bad Request' for url 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Csolana%2Cbinancecoin%2Cripple%2Ccardano%2Cavalanche-2%2Cdogecoin&price_change_percentage=24h'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:19:54.124 | WARNING  | backend.market_agent:fetch_crypto_prices:145 - CoinGecko fallback: Client error '400 Bad Request' for url 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Csolana%2Cbinancecoin%2Cripple%2Ccardano%2Cavalanche-2%2Cdogecoin&price_change_percentage=24h'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:20:14.133 | WARNING  | backend.market_agent:fetch_crypto_prices:145 - CoinGecko fallback: Client error '400 Bad Request' for url 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Csolana%2Cbinancecoin%2Cripple%2Ccardano%2Cavalanche-2%2Cdogecoin&price_change_percentage=24h'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:20:34.555 | WARNING  | backend.market_agent:fetch_crypto_prices:145 - CoinGecko fallback: Client error '400 Bad Request' for url 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Csolana%2Cbinancecoin%2Cripple%2Ccardano%2Cavalanche-2%2Cdogecoin&price_change_percentage=24h'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:20:53.924 | WARNING  | backend.market_agent:fetch_crypto_prices:145 - CoinGecko fallback: Client error '400 Bad Request' for url 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Csolana%2Cbinancecoin%2Cripple%2Ccardano%2Cavalanche-2%2Cdogecoin&price_change_percentage=24h'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:21:14.311 | WARNING  | backend.market_agent:fetch_crypto_prices:145 - CoinGecko fallback: Client error '400 Bad Request' for url 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Csolana%2Cbinancecoin%2Cripple%2Ccardano%2Cavalanche-2%2Cdogecoin&price_change_percentage=24h'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:21:34.729 | WARNING  | backend.market_agent:fetch_crypto_prices:145 - CoinGecko fallback: Client error '400 Bad Request' for url 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Csolana%2Cbinancecoin%2Cripple%2Ccardano%2Cavalanche-2%2Cdogecoin&price_change_percentage=24h'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:21:54.828 | WARNING  | backend.market_agent:fetch_crypto_prices:145 - CoinGecko fallback: Client error '400 Bad Request' for url 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Csolana%2Cbinancecoin%2Cripple%2Ccardano%2Cavalanche-2%2Cdogecoin&price_change_percentage=24h'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:22:15.814 | WARNING  | backend.market_agent:fetch_crypto_prices:145 - CoinGecko fallback: Client error '400 Bad Request' for url 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Csolana%2Cbinancecoin%2Cripple%2Ccardano%2Cavalanche-2%2Cdogecoin&price_change_percentage=24h'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:22:35.414 | WARNING  | backend.market_agent:fetch_crypto_prices:145 - CoinGecko fallback: Client error '400 Bad Request' for url 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Csolana%2Cbinancecoin%2Cripple%2Ccardano%2Cavalanche-2%2Cdogecoin&price_change_percentage=24h'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:22:56.147 | WARNING  | backend.market_agent:fetch_crypto_prices:145 - CoinGecko fallback: Client error '400 Bad Request' for url 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Csolana%2Cbinancecoin%2Cripple%2Ccardano%2Cavalanche-2%2Cdogecoin&price_change_percentage=24h'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:23:16.208 | WARNING  | backend.market_agent:fetch_crypto_prices:145 - CoinGecko fallback: Client error '400 Bad Request' for url 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Csolana%2Cbinancecoin%2Cripple%2Ccardano%2Cavalanche-2%2Cdogecoin&price_change_percentage=24h'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:23:35.348 | WARNING  | backend.market_agent:fetch_crypto_prices:145 - CoinGecko fallback: Client error '400 Bad Request' for url 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Csolana%2Cbinancecoin%2Cripple%2Ccardano%2Cavalanche-2%2Cdogecoin&price_change_percentage=24h'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:23:54.537 | WARNING  | backend.market_agent:fetch_crypto_prices:145 - CoinGecko fallback: Client error '400 Bad Request' for url 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Csolana%2Cbinancecoin%2Cripple%2Ccardano%2Cavalanche-2%2Cdogecoin&price_change_percentage=24h'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:24:14.893 | WARNING  | backend.market_agent:fetch_crypto_prices:145 - CoinGecko fallback: Client error '400 Bad Request' for url 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Csolana%2Cbinancecoin%2Cripple%2Ccardano%2Cavalanche-2%2Cdogecoin&price_change_percentage=24h'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:24:34.516 | WARNING  | backend.market_agent:fetch_crypto_prices:145 - CoinGecko fallback: Client error '400 Bad Request' for url 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Csolana%2Cbinancecoin%2Cripple%2Ccardano%2Cavalanche-2%2Cdogecoin&price_change_percentage=24h'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:24:54.563 | WARNING  | backend.market_agent:fetch_crypto_prices:145 - CoinGecko fallback: Client error '400 Bad Request' for url 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Csolana%2Cbinancecoin%2Cripple%2Ccardano%2Cavalanche-2%2Cdogecoin&price_change_percentage=24h'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:25:13.444 | WARNING  | backend.market_agent:fetch_crypto_prices:145 - CoinGecko fallback: Client error '400 Bad Request' for url 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Csolana%2Cbinancecoin%2Cripple%2Ccardano%2Cavalanche-2%2Cdogecoin&price_change_percentage=24h'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:25:32.309 | WARNING  | backend.market_agent:fetch_crypto_prices:145 - CoinGecko fallback: Client error '400 Bad Request' for url 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Csolana%2Cbinancecoin%2Cripple%2Ccardano%2Cavalanche-2%2Cdogecoin&price_change_percentage=24h'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:25:51.144 | WARNING  | backend.market_agent:fetch_crypto_prices:145 - CoinGecko fallback: Client error '400 Bad Request' for url 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Csolana%2Cbinancecoin%2Cripple%2Ccardano%2Cavalanche-2%2Cdogecoin&price_change_percentage=24h'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:26:10.381 | WARNING  | backend.market_agent:fetch_crypto_prices:145 - CoinGecko fallback: Client error '400 Bad Request' for url 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Csolana%2Cbinancecoin%2Cripple%2Ccardano%2Cavalanche-2%2Cdogecoin&price_change_percentage=24h'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:26:29.016 | WARNING  | backend.market_agent:fetch_crypto_prices:145 - CoinGecko fallback: Client error '400 Bad Request' for url 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Csolana%2Cbinancecoin%2Cripple%2Ccardano%2Cavalanche-2%2Cdogecoin&price_change_percentage=24h'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:26:48.113 | WARNING  | backend.market_agent:fetch_crypto_prices:145 - CoinGecko fallback: Client error '400 Bad Request' for url 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Csolana%2Cbinancecoin%2Cripple%2Ccardano%2Cavalanche-2%2Cdogecoin&price_change_percentage=24h'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:26:51.464 | INFO     | backend.main:lifespan:43 - ════════════════════════════════════════════════════════════
+2026-07-25 05:26:51.464 | INFO     | backend.main:lifespan:44 -   ULTRA V5.6 ENTERPRISE ENGINE — Live System Online
+2026-07-25 05:26:51.465 | INFO     | backend.main:lifespan:45 - ════════════════════════════════════════════════════════════
+2026-07-25 05:26:51.467 | INFO     | backend.task_runner:start:138 - ⚙️ TaskRunner active
+2026-07-25 05:26:51.467 | SUCCESS  | backend.main:lifespan:68 - ✅ All subsystems active
+2026-07-25 05:26:51.468 | INFO     | backend.market_agent:run_forever:304 - 🚀 MarketAgent active
+2026-07-25 05:26:52.343 | SUCCESS  | backend.bot_control:start:43 - 🤖 Telegram bot active — monitoring commands
+2026-07-25 05:26:53.363 | INFO     | backend.task_runner:stop:141 - TaskRunner stopped
+2026-07-25 05:26:53.364 | INFO     | backend.main:lifespan:76 - Shutdown complete.
+2026-07-25 05:27:06.778 | WARNING  | backend.market_agent:fetch_crypto_prices:145 - CoinGecko fallback: Client error '400 Bad Request' for url 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Csolana%2Cbinancecoin%2Cripple%2Ccardano%2Cavalanche-2%2Cdogecoin&price_change_percentage=24h'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:27:25.748 | WARNING  | backend.market_agent:fetch_crypto_prices:145 - CoinGecko fallback: Client error '400 Bad Request' for url 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Csolana%2Cbinancecoin%2Cripple%2Ccardano%2Cavalanche-2%2Cdogecoin&price_change_percentage=24h'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:28:07.317 | INFO     | backend.main:lifespan:69 - ════════════════════════════════════════════════════════════
+2026-07-25 05:28:07.317 | INFO     | backend.main:lifespan:70 -   ULTRA V5.6 ENTERPRISE ENGINE — Live System Online
+2026-07-25 05:28:07.317 | INFO     | backend.main:lifespan:71 - ════════════════════════════════════════════════════════════
+2026-07-25 05:28:07.319 | INFO     | backend.task_runner:start:138 - ⚙️ TaskRunner active
+2026-07-25 05:28:07.319 | SUCCESS  | backend.main:lifespan:105 - ✅ All subsystems active
+2026-07-25 05:28:07.320 | INFO     | backend.market_agent:run_forever:316 - 🚀 MarketAgent active — streaming Binance REST tickers
+2026-07-25 05:28:08.143 | SUCCESS  | backend.bot_control:start:43 - 🤖 Telegram bot active — monitoring commands
+2026-07-25 05:28:10.492 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:28:19.133 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:28:27.585 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:28:36.133 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:28:44.901 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:28:47.244 | INFO     | backend.task_runner:run:65 - ▶ Executing: C:\Python314\python.exe C:\Users\hp\Desktop\ULTRA_V56\tasks\sample_cleanup.py
+2026-07-25 05:28:54.932 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:29:03.601 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:29:12.262 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:29:22.510 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:29:31.510 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:29:40.782 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:29:49.412 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:29:58.521 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:30:08.511 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:30:17.355 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:30:22.827 | SUCCESS  | backend.market_agent:execute_buy:257 - 📄 PAPER BUY 0.001483 BTC @ $67,450.0000
+2026-07-25 05:30:26.097 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:30:35.280 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:30:44.740 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:30:54.169 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:31:02.355 | INFO     | backend.task_runner:run:65 - ▶ Executing: C:\Python314\python.exe C:\Users\hp\Desktop\ULTRA_V56\tasks\sample_cleanup.py
+2026-07-25 05:31:03.441 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:31:12.533 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:31:21.615 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:31:30.711 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:31:39.868 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:31:49.145 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:31:58.208 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:32:07.629 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:32:16.833 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:32:26.282 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:32:35.528 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:32:44.601 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:32:53.791 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:33:02.948 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:33:12.299 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:33:21.647 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:33:30.930 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:33:40.050 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:33:49.373 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:33:58.552 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:34:08.000 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:34:17.342 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:34:27.380 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:34:37.353 | SUCCESS  | backend.market_agent:execute_sell:274 - 📄 PAPER SELL 0.001483 BTC @ $67,450.0000 | PnL: $+0.00
+2026-07-25 05:34:38.281 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:34:47.781 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:34:57.444 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:35:07.047 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:35:16.430 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:35:25.745 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:35:34.598 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:35:42.995 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:35:51.429 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:36:00.084 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:36:08.583 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:36:17.281 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:36:25.815 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:36:34.250 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:36:42.663 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:36:51.184 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:36:59.857 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:37:08.454 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:37:17.888 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:37:26.837 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:37:35.803 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:37:44.882 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:37:54.059 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:38:02.953 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:38:11.650 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:38:20.091 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:38:28.666 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:38:37.086 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:38:45.565 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:38:54.034 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:39:02.674 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:39:11.234 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:39:19.916 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:39:28.443 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:39:37.108 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:39:45.555 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:39:54.010 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:40:02.800 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:40:11.303 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:40:19.811 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:40:28.534 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:40:37.229 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:40:45.685 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:40:54.118 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:41:02.819 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:41:11.308 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:41:19.952 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:41:28.389 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:41:36.903 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:41:46.025 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:41:54.583 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:42:03.441 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:42:11.860 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:42:20.722 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:42:29.405 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:42:38.222 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:42:46.841 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:42:55.655 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:43:04.257 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:43:12.726 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:43:21.282 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:43:29.969 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:43:38.549 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:43:47.216 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:43:55.617 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:44:04.097 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:44:12.884 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:44:21.401 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:44:30.315 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:44:39.058 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:44:47.602 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:44:56.394 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:45:05.193 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:45:13.897 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:45:22.289 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:45:30.726 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:45:39.187 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:45:47.817 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:45:56.538 | WARNING  | backend.market_agent:fetch_crypto_prices:147 - Binance price feed fallback: Client error '400 Bad Request' for url 'https://api.binance.com/api/v3/ticker/24hr?symbols=[%22BTCUSDT%22,%20%22ETHUSDT%22,%20%22SOLUSDT%22,%20%22BNBUSDT%22,%20%22XRPUSDT%22,%20%22ADAUSDT%22,%20%22AVAXUSDT%22,%20%22DOGEUSDT%22]'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-07-25 05:57:05.005 | INFO     | backend.main:lifespan:409 -   ULTRA V5.6 ENTERPRISE ENGINE — Live System Online
+2026-07-25 05:57:05.008 | INFO     | backend.task_runner:start:138 - ⚙️ TaskRunner active
+2026-07-25 05:57:05.008 | SUCCESS  | backend.main:lifespan:447 - ✅ All subsystems active — Auto-Pilot armed
+2026-07-25 05:57:05.008 | INFO     | backend.market_agent:run_forever:317 - 🚀 MarketAgent active — streaming Binance REST tickers
+2026-07-25 05:57:05.774 | SUCCESS  | backend.bot_control:start:43 - 🤖 Telegram bot active — monitoring commands
+2026-07-25 05:57:06.484 | INFO     | backend.main:autopilot_worker:322 - Auto-Pilot Worker ready — monitoring signals
+2026-07-25 05:58:01.748 | INFO     | backend.main:toggle_autopilot:574 - Auto-Pilot: ACTIVE
+2026-07-25 05:58:02.227 | INFO     | backend.main:toggle_autopilot:574 - Auto-Pilot: DISABLED
+2026-07-25 05:58:04.158 | INFO     | backend.main:toggle_autopilot:574 - Auto-Pilot: ACTIVE
+2026-07-25 06:04:03.973 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-07-25 06:04:40.615 | WARNING  | backend.market_agent:fetch_crypto_prices:148 - Binance price feed fallback: [Errno 11001] getaddrinfo failed
+2026-07-25 06:04:40.679 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-07-25 06:04:42.809 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-07-25 06:05:23.377 | INFO     | backend.main:toggle_autopilot:574 - Auto-Pilot: ACTIVE
+2026-07-25 06:07:51.426 | SUCCESS  | backend.market_agent:execute_buy:258 - 📄 PAPER BUY 0.001559 BTC @ $64,126.0100
+2026-07-25 23:22:51.456 | INFO     | backend.main:lifespan:409 -   ULTRA V5.6 ENTERPRISE ENGINE — Live System Online
+2026-07-25 23:22:51.474 | INFO     | backend.task_runner:start:138 - ⚙️ TaskRunner active
+2026-07-25 23:22:51.474 | SUCCESS  | backend.main:lifespan:447 - ✅ All subsystems active — Auto-Pilot armed
+2026-07-25 23:22:51.474 | INFO     | backend.market_agent:run_forever:317 - 🚀 MarketAgent active — streaming Binance REST tickers
+2026-07-25 23:22:51.909 | SUCCESS  | backend.bot_control:start:43 - 🤖 Telegram bot active — monitoring commands
+2026-07-25 23:22:52.322 | INFO     | backend.main:autopilot_worker:322 - Auto-Pilot Worker ready — monitoring signals
+2026-07-25 23:25:59.028 | INFO     | backend.main:lifespan:409 -   ULTRA V5.6 ENTERPRISE ENGINE — Live System Online
+2026-07-25 23:25:59.029 | INFO     | backend.task_runner:start:138 - ⚙️ TaskRunner active
+2026-07-25 23:25:59.029 | SUCCESS  | backend.main:lifespan:447 - ✅ All subsystems active — Auto-Pilot armed
+2026-07-25 23:25:59.030 | INFO     | backend.market_agent:run_forever:317 - 🚀 MarketAgent active — streaming Binance REST tickers
+2026-07-25 23:25:59.645 | SUCCESS  | backend.bot_control:start:43 - 🤖 Telegram bot active — monitoring commands
+2026-07-25 23:26:00.065 | INFO     | backend.main:autopilot_worker:322 - Auto-Pilot Worker ready — monitoring signals
+2026-07-25 23:27:55.947 | INFO     | backend.main:lifespan:409 -   ULTRA V5.6 ENTERPRISE ENGINE — Live System Online
+2026-07-25 23:27:55.948 | INFO     | backend.task_runner:start:138 - ⚙️ TaskRunner active
+2026-07-25 23:27:55.949 | SUCCESS  | backend.main:lifespan:447 - ✅ All subsystems active — Auto-Pilot armed
+2026-07-25 23:27:55.949 | INFO     | backend.market_agent:run_forever:317 - 🚀 MarketAgent active — streaming Binance REST tickers
+2026-07-25 23:27:56.415 | SUCCESS  | backend.bot_control:start:43 - 🤖 Telegram bot active — monitoring commands
+2026-07-25 23:27:56.819 | INFO     | backend.main:autopilot_worker:322 - Auto-Pilot Worker ready — monitoring signals
+2026-07-25 23:28:21.919 | INFO     | backend.main:toggle_autopilot:574 - Auto-Pilot: ACTIVE
+2026-07-25 23:28:26.835 | SUCCESS  | backend.market_agent:execute_buy:258 - 📄 PAPER BUY 0.175236 BNB @ $570.6600
+2026-07-25 23:28:26.836 | SUCCESS  | backend.main:autopilot_worker:346 - Auto-Pilot BUY: BNB score=80.0
+2026-07-25 23:28:26.840 | SUCCESS  | backend.market_agent:execute_buy:258 - 📄 PAPER BUY 1372.495196 DOGE @ $0.0729
+2026-07-25 23:28:26.844 | SUCCESS  | backend.main:autopilot_worker:346 - Auto-Pilot BUY: DOGE score=90.0
+2026-07-25 23:32:42.209 | SUCCESS  | backend.market_agent:execute_buy:258 - 📄 PAPER BUY 0.001555 BTC @ $64,311.0000
+2026-07-25 23:36:50.150 | SUCCESS  | backend.market_agent:execute_sell:275 - 📄 PAPER SELL 0.001554 BTC @ $64,351.7700 | PnL: $+0.06
+2026-07-25 23:38:30.679 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: 
+2026-07-25 23:38:43.974 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-07-25 23:38:57.303 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-07-25 23:38:59.321 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-07-25 23:39:01.351 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-07-25 23:39:15.408 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-07-25 23:52:36.240 | INFO     | backend.main:lifespan:585 -   ULTRA V5.6 ENTERPRISE ENGINE — Live System Online
+2026-07-25 23:52:36.273 | INFO     | backend.risk_and_state:init:498 - [StateManager] Initialized (SQLite backend)
+2026-07-25 23:52:36.284 | INFO     | backend.task_runner:start:138 - ⚙️ TaskRunner active
+2026-07-25 23:52:36.285 | SUCCESS  | backend.main:lifespan:673 - ✅ All subsystems active — Auto-Pilot armed
+2026-07-25 23:52:36.285 | INFO     | backend.market_agent:run_forever:317 - 🚀 MarketAgent active — streaming Binance REST tickers
+2026-07-25 23:52:36.818 | SUCCESS  | backend.bot_control:start:43 - 🤖 Telegram bot active — monitoring commands
+2026-07-25 23:52:37.308 | INFO     | backend.main:autopilot_worker:345 - [Auto-Pilot v2] Worker ready — Risk-managed + State-persistent
+2026-07-25 23:52:37.319 | INFO     | backend.task_runner:stop:141 - TaskRunner stopped
+2026-07-25 23:52:37.321 | INFO     | backend.main:lifespan:681 - Shutdown complete.
+2026-07-25 23:52:52.618 | INFO     | backend.main:lifespan:585 -   ULTRA V5.6 ENTERPRISE ENGINE — Live System Online
+2026-07-25 23:52:52.623 | INFO     | backend.risk_and_state:init:498 - [StateManager] Initialized (SQLite backend)
+2026-07-25 23:52:52.629 | INFO     | backend.task_runner:start:138 - ⚙️ TaskRunner active
+2026-07-25 23:52:52.630 | SUCCESS  | backend.main:lifespan:673 - ✅ All subsystems active — Auto-Pilot armed
+2026-07-25 23:52:52.631 | INFO     | backend.market_agent:run_forever:317 - 🚀 MarketAgent active — streaming Binance REST tickers
+2026-07-25 23:52:53.137 | SUCCESS  | backend.bot_control:start:43 - 🤖 Telegram bot active — monitoring commands
+2026-07-25 23:52:53.602 | INFO     | backend.main:autopilot_worker:345 - [Auto-Pilot v2] Worker ready — Risk-managed + State-persistent
+2026-07-25 23:55:03.658 | INFO     | backend.main:toggle_autopilot:800 - Auto-Pilot: ACTIVE
+2026-07-25 23:56:42.484 | SUCCESS  | backend.market_agent:execute_buy:258 - 📄 PAPER BUY 0.001552 BTC @ $64,433.6500
+2026-07-25 23:56:51.179 | SUCCESS  | backend.market_agent:execute_buy:258 - 📄 PAPER BUY 0.053070 ETH @ $1,884.3100
+2026-07-25 23:56:54.801 | SUCCESS  | backend.market_agent:execute_buy:258 - 📄 PAPER BUY 1.332090 SOL @ $75.0700
+2026-07-25 23:56:57.233 | SUCCESS  | backend.market_agent:execute_buy:258 - 📄 PAPER BUY 0.174761 BNB @ $572.2100
+2026-07-25 23:56:59.970 | SUCCESS  | backend.market_agent:execute_buy:258 - 📄 PAPER BUY 90.917356 XRP @ $1.0999
+2026-07-26 00:00:23.907 | INFO     | backend.risk_and_state:refresh_day:135 - [CircuitBreaker] New trading day — resetting baseline to $10,000.14
+2026-07-26 00:30:24.655 | INFO     | backend.risk_and_state:calculate_position_size:107 - [RiskEngine] Sizing: balance=$9,500.00 | risk=1.0% ($47.50) | entry=6.754 | sl=6.61892 | qty=351.643421
+2026-07-26 00:30:24.656 | SUCCESS  | backend.market_agent:execute_buy:258 - 📄 PAPER BUY 351.643421 AVAX @ $6.7540
+2026-07-26 00:30:24.709 | SUCCESS  | backend.main:autopilot_worker:506 - [Auto-Pilot] BUY AVAX qty=351.643421 @ $6.7540 | SL=6.6189 TP=7.0242 | Risk USDT=47.50
+2026-07-26 00:37:14.572 | INFO     | backend.main:lifespan:586 -   ULTRA V5.6 ENTERPRISE ENGINE — Live System Online
+2026-07-26 00:37:14.578 | INFO     | backend.risk_and_state:init:498 - [StateManager] Initialized (SQLite backend)
+2026-07-26 00:37:14.581 | SUCCESS  | backend.main:lifespan:600 - [StateManager] Balance recovered: available=$7,125.00 initial=$10,000.00
+2026-07-26 00:37:14.585 | SUCCESS  | backend.main:lifespan:635 - [StateManager] Crash recovery: 1 position(s) restored
+2026-07-26 00:37:14.610 | INFO     | backend.task_runner:start:138 - ⚙️ TaskRunner active
+2026-07-26 00:37:14.610 | SUCCESS  | backend.main:lifespan:678 - ✅ All subsystems active — Auto-Pilot armed
+2026-07-26 00:37:14.610 | INFO     | backend.store_agent:run_forever:534 - 🛒 GlobalTrends25 Store Automation Brain active — 30s background worker started
+2026-07-26 00:37:14.611 | INFO     | backend.market_agent:run_forever:317 - 🚀 MarketAgent active — streaming Binance REST tickers
+2026-07-26 00:37:15.080 | SUCCESS  | backend.bot_control:start:43 - 🤖 Telegram bot active — monitoring commands
+2026-07-26 00:37:15.490 | INFO     | backend.main:autopilot_worker:346 - [Auto-Pilot v2] Worker ready — Risk-managed + State-persistent
+2026-07-26 00:38:55.623 | INFO     | backend.main:toggle_autopilot:805 - Auto-Pilot: ACTIVE
+2026-07-26 00:39:15.518 | INFO     | backend.risk_and_state:calculate_position_size:107 - [RiskEngine] Sizing: balance=$7,125.00 | risk=1.0% ($35.62) | entry=571.41 | sl=559.9818 | qty=3.117288
+2026-07-26 00:39:15.518 | SUCCESS  | backend.market_agent:execute_buy:258 - 📄 PAPER BUY 3.117288 BNB @ $571.4100
+2026-07-26 00:39:15.618 | SUCCESS  | backend.main:autopilot_worker:507 - [Auto-Pilot] BUY BNB qty=3.117288 @ $571.4100 | SL=559.9818 TP=594.2664 | Risk USDT=35.62
+2026-07-26 00:39:15.618 | INFO     | backend.risk_and_state:calculate_position_size:107 - [RiskEngine] Sizing: balance=$7,125.00 | risk=1.0% ($35.62) | entry=0.07336 | sl=0.071893 | qty=24280.939852
+2026-07-26 00:39:15.619 | SUCCESS  | backend.market_agent:execute_buy:258 - 📄 PAPER BUY 24280.939852 DOGE @ $0.0734
+2026-07-26 00:39:15.713 | SUCCESS  | backend.main:autopilot_worker:507 - [Auto-Pilot] BUY DOGE qty=24280.939852 @ $0.0734 | SL=0.0719 TP=0.0763 | Risk USDT=35.62
+2026-07-26 00:39:45.737 | CRITICAL | backend.risk_and_state:check_circuit_breaker:151 - [CircuitBreaker] TRIPPED — Daily drawdown 5.03% exceeds 5% limit! Start=10000.00, Now=9496.99
+2026-07-26 00:39:45.737 | CRITICAL | backend.main:autopilot_worker:370 - [CircuitBreaker] Auto-Pilot suspended — daily loss limit hit
+2026-07-26 01:00:15.086 | INFO     | backend.main:lifespan:586 -   ULTRA V5.6 ENTERPRISE ENGINE — Live System Online
+2026-07-26 01:00:15.092 | INFO     | backend.risk_and_state:init:498 - [StateManager] Initialized (SQLite backend)
+2026-07-26 01:00:15.095 | SUCCESS  | backend.main:lifespan:600 - [StateManager] Balance recovered: available=$3,562.50 initial=$10,000.00
+2026-07-26 01:00:15.102 | SUCCESS  | backend.main:lifespan:635 - [StateManager] Crash recovery: 3 position(s) restored
+2026-07-26 01:00:15.103 | INFO     | backend.task_runner:start:138 - ⚙️ TaskRunner active
+2026-07-26 01:00:15.104 | SUCCESS  | backend.main:lifespan:674 - ✅ All subsystems active — Auto-Pilot armed
+2026-07-26 01:00:15.104 | INFO     | backend.market_agent:run_forever:317 - 🚀 MarketAgent active — streaming Binance REST tickers
+2026-07-26 01:00:15.628 | SUCCESS  | backend.bot_control:start:43 - 🤖 Telegram bot active — monitoring commands
+2026-07-26 01:00:16.106 | INFO     | backend.main:autopilot_worker:346 - [Auto-Pilot v2] Worker ready — Risk-managed + State-persistent
+2026-07-26 01:01:06.514 | INFO     | backend.main:toggle_autopilot:801 - Auto-Pilot: ACTIVE
+2026-07-26 01:40:47.640 | CRITICAL | backend.risk_and_state:check_circuit_breaker:151 - [CircuitBreaker] TRIPPED — Daily drawdown 5.00% exceeds 5% limit! Start=10000.00, Now=9499.58
+2026-07-26 01:40:47.662 | CRITICAL | backend.main:autopilot_worker:370 - [CircuitBreaker] Auto-Pilot suspended — daily loss limit hit
+2026-07-28 02:28:03.449 | INFO     | backend.main:lifespan:586 -   ULTRA V5.6 ENTERPRISE ENGINE — Live System Online
+2026-07-28 02:28:03.469 | INFO     | backend.risk_and_state:init:498 - [StateManager] Initialized (SQLite backend)
+2026-07-28 02:28:03.473 | SUCCESS  | backend.main:lifespan:600 - [StateManager] Balance recovered: available=$3,562.50 initial=$10,000.00
+2026-07-28 02:28:03.478 | SUCCESS  | backend.main:lifespan:635 - [StateManager] Crash recovery: 3 position(s) restored
+2026-07-28 02:28:03.483 | INFO     | backend.task_runner:start:138 - ⚙️ TaskRunner active
+2026-07-28 02:28:03.483 | SUCCESS  | backend.main:lifespan:674 - ✅ All subsystems active — Auto-Pilot armed
+2026-07-28 02:28:03.484 | INFO     | backend.market_agent:run_forever:317 - 🚀 MarketAgent active — streaming Binance REST tickers
+2026-07-28 02:28:04.199 | SUCCESS  | backend.bot_control:start:43 - 🤖 Telegram bot active — monitoring commands
+2026-07-28 02:28:04.653 | INFO     | backend.main:autopilot_worker:346 - [Auto-Pilot v2] Worker ready — Risk-managed + State-persistent
+2026-07-28 02:28:27.646 | WARNING  | backend.gemini_service:_make_client:48 - [GeminiService] GEMINI_API_KEY not set in .env — running in template-fallback mode.
+2026-07-28 16:12:50.458 | INFO     | backend.main:lifespan:586 -   ULTRA V5.6 ENTERPRISE ENGINE — Live System Online
+2026-07-28 16:12:50.479 | INFO     | backend.risk_and_state:init:498 - [StateManager] Initialized (SQLite backend)
+2026-07-28 16:12:50.489 | SUCCESS  | backend.main:lifespan:600 - [StateManager] Balance recovered: available=$3,562.50 initial=$10,000.00
+2026-07-28 16:12:50.494 | SUCCESS  | backend.main:lifespan:635 - [StateManager] Crash recovery: 3 position(s) restored
+2026-07-28 16:12:50.497 | INFO     | backend.task_runner:start:138 - ⚙️ TaskRunner active
+2026-07-28 16:12:50.498 | SUCCESS  | backend.main:lifespan:674 - ✅ All subsystems active — Auto-Pilot armed
+2026-07-28 16:12:50.500 | INFO     | backend.market_agent:run_forever:317 - 🚀 MarketAgent active — streaming Binance REST tickers
+2026-07-28 16:12:51.074 | SUCCESS  | backend.bot_control:start:43 - 🤖 Telegram bot active — monitoring commands
+2026-07-28 16:12:51.578 | INFO     | backend.main:autopilot_worker:346 - [Auto-Pilot v2] Worker ready — Risk-managed + State-persistent
+2026-07-28 16:12:59.286 | WARNING  | backend.gemini_service:generate:120 - [GeminiService] gemini-1.5-flash failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for gene
+2026-07-28 16:13:01.605 | WARNING  | backend.gemini_service:generate:120 - [GeminiService] gemini-1.5-pro failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-pro is not found for API version v1beta, or is not supported for genera
+2026-07-28 16:14:37.489 | INFO     | backend.main:lifespan:586 -   ULTRA V5.6 ENTERPRISE ENGINE — Live System Online
+2026-07-28 16:14:37.497 | INFO     | backend.risk_and_state:init:498 - [StateManager] Initialized (SQLite backend)
+2026-07-28 16:14:37.500 | SUCCESS  | backend.main:lifespan:600 - [StateManager] Balance recovered: available=$3,562.50 initial=$10,000.00
+2026-07-28 16:14:37.504 | SUCCESS  | backend.main:lifespan:635 - [StateManager] Crash recovery: 3 position(s) restored
+2026-07-28 16:14:37.507 | INFO     | backend.task_runner:start:138 - ⚙️ TaskRunner active
+2026-07-28 16:14:37.508 | SUCCESS  | backend.main:lifespan:674 - ✅ All subsystems active — Auto-Pilot armed
+2026-07-28 16:14:37.509 | INFO     | backend.market_agent:run_forever:317 - 🚀 MarketAgent active — streaming Binance REST tickers
+2026-07-28 16:14:38.016 | SUCCESS  | backend.bot_control:start:43 - 🤖 Telegram bot active — monitoring commands
+2026-07-28 16:14:38.486 | INFO     | backend.main:autopilot_worker:346 - [Auto-Pilot v2] Worker ready — Risk-managed + State-persistent
+2026-07-28 16:14:47.526 | WARNING  | backend.gemini_service:generate:120 - [GeminiService] gemini-2.0-flash failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For
+2026-07-28 16:14:49.936 | WARNING  | backend.gemini_service:generate:120 - [GeminiService] gemini-2.5-flash failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update you
+2026-07-28 16:14:50.423 | WARNING  | backend.gemini_service:generate:120 - [GeminiService] gemini-2.0-flash failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For
+2026-07-28 16:14:52.846 | WARNING  | backend.gemini_service:generate:120 - [GeminiService] gemini-2.5-flash failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update you
+2026-07-28 16:16:52.883 | INFO     | backend.main:lifespan:586 -   ULTRA V5.6 ENTERPRISE ENGINE — Live System Online
+2026-07-28 16:16:52.908 | INFO     | backend.risk_and_state:init:498 - [StateManager] Initialized (SQLite backend)
+2026-07-28 16:16:52.913 | SUCCESS  | backend.main:lifespan:600 - [StateManager] Balance recovered: available=$3,562.50 initial=$10,000.00
+2026-07-28 16:16:52.916 | SUCCESS  | backend.main:lifespan:635 - [StateManager] Crash recovery: 3 position(s) restored
+2026-07-28 16:16:52.921 | INFO     | backend.task_runner:start:138 - ⚙️ TaskRunner active
+2026-07-28 16:16:52.922 | SUCCESS  | backend.main:lifespan:674 - ✅ All subsystems active — Auto-Pilot armed
+2026-07-28 16:16:52.922 | INFO     | backend.market_agent:run_forever:317 - 🚀 MarketAgent active — streaming Binance REST tickers
+2026-07-28 16:16:53.548 | SUCCESS  | backend.bot_control:start:43 - 🤖 Telegram bot active — monitoring commands
+2026-07-28 16:16:54.114 | INFO     | backend.main:autopilot_worker:346 - [Auto-Pilot v2] Worker ready — Risk-managed + State-persistent
+2026-07-28 16:17:06.864 | WARNING  | backend.gemini_service:generate:124 - [GeminiService] gemini-2.5-flash-lite failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please updat
+2026-07-28 16:17:07.357 | WARNING  | backend.gemini_service:generate:124 - [GeminiService] gemini-2.0-flash-lite failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For
+2026-07-28 16:17:07.358 | INFO     | backend.gemini_service:generate:128 - [GeminiService] Rate limit hit — waiting 8s before fallback model...
+2026-08-03 12:13:41.587 | INFO     | backend.main:lifespan:586 -   ULTRA V5.6 ENTERPRISE ENGINE — Live System Online
+2026-08-03 12:13:41.613 | INFO     | backend.risk_and_state:init:498 - [StateManager] Initialized (SQLite backend)
+2026-08-03 12:13:41.621 | SUCCESS  | backend.main:lifespan:600 - [StateManager] Balance recovered: available=$3,562.50 initial=$10,000.00
+2026-08-03 12:13:41.628 | SUCCESS  | backend.main:lifespan:635 - [StateManager] Crash recovery: 3 position(s) restored
+2026-08-03 12:13:41.633 | INFO     | backend.task_runner:start:138 - ⚙️ TaskRunner active
+2026-08-03 12:13:41.636 | SUCCESS  | backend.main:lifespan:674 - ✅ All subsystems active — Auto-Pilot armed
+2026-08-03 12:13:41.637 | INFO     | backend.market_agent:run_forever:317 - 🚀 MarketAgent active — streaming Binance REST tickers
+2026-08-03 12:13:42.421 | SUCCESS  | backend.bot_control:start:43 - 🤖 Telegram bot active — monitoring commands
+2026-08-03 12:13:43.186 | INFO     | backend.main:autopilot_worker:346 - [Auto-Pilot v2] Worker ready — Risk-managed + State-persistent
+2026-08-03 12:14:17.315 | INFO     | backend.main:toggle_autopilot:801 - Auto-Pilot: ACTIVE
+2026-08-03 12:14:43.287 | CRITICAL | backend.risk_and_state:check_circuit_breaker:151 - [CircuitBreaker] TRIPPED — Daily drawdown 6.72% exceeds 5% limit! Start=10000.00, Now=9328.14
+2026-08-03 12:14:43.289 | CRITICAL | backend.main:autopilot_worker:370 - [CircuitBreaker] Auto-Pilot suspended — daily loss limit hit
+2026-08-03 16:34:19.175 | INFO     | backend.main:lifespan:586 -   ULTRA V5.6 ENTERPRISE ENGINE — Live System Online
+2026-08-03 16:34:19.203 | INFO     | backend.risk_and_state:init:498 - [StateManager] Initialized (SQLite backend)
+2026-08-03 16:34:19.213 | SUCCESS  | backend.main:lifespan:600 - [StateManager] Balance recovered: available=$3,562.50 initial=$10,000.00
+2026-08-03 16:34:19.220 | SUCCESS  | backend.main:lifespan:635 - [StateManager] Crash recovery: 3 position(s) restored
+2026-08-03 16:34:19.222 | INFO     | backend.task_runner:start:138 - ⚙️ TaskRunner active
+2026-08-03 16:34:19.223 | SUCCESS  | backend.main:lifespan:674 - ✅ All subsystems active — Auto-Pilot armed
+2026-08-03 16:34:19.225 | INFO     | backend.market_agent:run_forever:317 - 🚀 MarketAgent active — streaming Binance REST tickers
+2026-08-03 16:34:20.235 | SUCCESS  | backend.bot_control:start:43 - 🤖 Telegram bot active — monitoring commands
+2026-08-03 16:34:21.065 | INFO     | backend.main:autopilot_worker:346 - [Auto-Pilot v2] Worker ready — Risk-managed + State-persistent
+2026-08-03 16:42:08.548 | INFO     | backend.main:toggle_autopilot:801 - Auto-Pilot: ACTIVE
+2026-08-03 16:42:21.244 | CRITICAL | backend.risk_and_state:check_circuit_breaker:151 - [CircuitBreaker] TRIPPED — Daily drawdown 6.23% exceeds 5% limit! Start=10000.00, Now=9376.99
+2026-08-03 16:42:21.245 | CRITICAL | backend.main:autopilot_worker:370 - [CircuitBreaker] Auto-Pilot suspended — daily loss limit hit
+2026-08-03 16:44:08.200 | INFO     | backend.main:lifespan:586 -   ULTRA V5.6 ENTERPRISE ENGINE — Live System Online
+2026-08-03 16:44:08.215 | INFO     | backend.risk_and_state:init:498 - [StateManager] Initialized (SQLite backend)
+2026-08-03 16:44:08.223 | SUCCESS  | backend.main:lifespan:600 - [StateManager] Balance recovered: available=$3,562.50 initial=$10,000.00
+2026-08-03 16:44:08.237 | SUCCESS  | backend.main:lifespan:635 - [StateManager] Crash recovery: 3 position(s) restored
+2026-08-03 16:44:08.240 | INFO     | backend.task_runner:start:138 - ⚙️ TaskRunner active
+2026-08-03 16:44:08.245 | SUCCESS  | backend.main:lifespan:674 - ✅ All subsystems active — Auto-Pilot armed
+2026-08-03 16:44:08.247 | INFO     | backend.market_agent:run_forever:317 - 🚀 MarketAgent active — streaming Binance REST tickers
+2026-08-03 16:44:09.787 | SUCCESS  | backend.bot_control:start:43 - 🤖 Telegram bot active — monitoring commands
+2026-08-03 16:44:11.506 | INFO     | backend.main:autopilot_worker:346 - [Auto-Pilot v2] Worker ready — Risk-managed + State-persistent
+2026-08-03 16:44:11.560 | INFO     | backend.task_runner:stop:141 - TaskRunner stopped
+2026-08-03 16:44:11.565 | INFO     | backend.main:lifespan:682 - Shutdown complete.
+2026-08-05 14:51:09.373 | INFO     | backend.main:lifespan:586 -   ULTRA V5.6 ENTERPRISE ENGINE — Live System Online
+2026-08-05 14:51:09.389 | INFO     | backend.risk_and_state:init:498 - [StateManager] Initialized (SQLite backend)
+2026-08-05 14:51:09.392 | SUCCESS  | backend.main:lifespan:600 - [StateManager] Balance recovered: available=$3,562.50 initial=$10,000.00
+2026-08-05 14:51:09.396 | SUCCESS  | backend.main:lifespan:635 - [StateManager] Crash recovery: 3 position(s) restored
+2026-08-05 14:51:09.399 | INFO     | backend.task_runner:start:138 - ⚙️ TaskRunner active
+2026-08-05 14:51:09.401 | SUCCESS  | backend.main:lifespan:674 - ✅ All subsystems active — Auto-Pilot armed
+2026-08-05 14:51:09.402 | INFO     | backend.market_agent:run_forever:317 - 🚀 MarketAgent active — streaming Binance REST tickers
+2026-08-05 14:51:09.937 | SUCCESS  | backend.bot_control:start:43 - 🤖 Telegram bot active — monitoring commands
+2026-08-05 14:51:10.381 | INFO     | backend.main:autopilot_worker:346 - [Auto-Pilot v2] Worker ready — Risk-managed + State-persistent
+2026-08-05 14:51:16.922 | INFO     | backend.main:toggle_autopilot:801 - Auto-Pilot: ACTIVE
+2026-08-05 14:51:43.612 | CRITICAL | backend.risk_and_state:check_circuit_breaker:151 - [CircuitBreaker] TRIPPED — Daily drawdown 5.39% exceeds 5% limit! Start=10000.00, Now=9461.35
+2026-08-05 14:51:43.613 | CRITICAL | backend.main:autopilot_worker:370 - [CircuitBreaker] Auto-Pilot suspended — daily loss limit hit
+2026-08-05 14:56:23.222 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:09:57.735 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: 
+2026-08-05 15:10:09.940 | WARNING  | backend.market_agent:fetch_crypto_prices:148 - Binance price feed fallback: 
+2026-08-05 15:10:22.444 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: All connection attempts failed
+2026-08-05 15:10:45.523 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: All connection attempts failed
+2026-08-05 15:11:08.585 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: All connection attempts failed
+2026-08-05 15:11:27.564 | WARNING  | backend.market_agent:fetch_crypto_prices:148 - Binance price feed fallback: 
+2026-08-05 15:11:31.652 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: All connection attempts failed
+2026-08-05 15:12:17.332 | WARNING  | backend.market_agent:fetch_crypto_prices:148 - Binance price feed fallback: 
+2026-08-05 15:15:48.567 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: 
+2026-08-05 15:18:19.667 | WARNING  | backend.market_agent:fetch_crypto_prices:148 - Binance price feed fallback: [Errno 11002] getaddrinfo failed
+2026-08-05 15:32:20.890 | WARNING  | backend.market_agent:fetch_crypto_prices:148 - Binance price feed fallback: 
+2026-08-05 15:32:44.964 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: 
+2026-08-05 15:32:47.063 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:32:49.086 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:32:51.108 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:32:53.112 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:32:55.130 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:32:55.935 | WARNING  | backend.market_agent:fetch_crypto_prices:148 - Binance price feed fallback: [Errno 11001] getaddrinfo failed
+2026-08-05 15:32:57.148 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:32:59.159 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:33:00.967 | WARNING  | backend.market_agent:fetch_crypto_prices:148 - Binance price feed fallback: [Errno 11001] getaddrinfo failed
+2026-08-05 15:33:01.175 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:33:03.179 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:33:05.185 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:33:05.990 | WARNING  | backend.market_agent:fetch_crypto_prices:148 - Binance price feed fallback: [Errno 11001] getaddrinfo failed
+2026-08-05 15:33:07.191 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:33:09.207 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:33:11.024 | WARNING  | backend.market_agent:fetch_crypto_prices:148 - Binance price feed fallback: [Errno 11001] getaddrinfo failed
+2026-08-05 15:33:11.214 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:33:13.224 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:33:15.242 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:33:16.063 | WARNING  | backend.market_agent:fetch_crypto_prices:148 - Binance price feed fallback: [Errno 11001] getaddrinfo failed
+2026-08-05 15:33:17.259 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:33:19.278 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:33:21.094 | WARNING  | backend.market_agent:fetch_crypto_prices:148 - Binance price feed fallback: [Errno 11001] getaddrinfo failed
+2026-08-05 15:33:21.298 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:33:23.311 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:33:25.316 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:33:26.115 | WARNING  | backend.market_agent:fetch_crypto_prices:148 - Binance price feed fallback: [Errno 11001] getaddrinfo failed
+2026-08-05 15:33:27.328 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:33:29.336 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:33:31.147 | WARNING  | backend.market_agent:fetch_crypto_prices:148 - Binance price feed fallback: [Errno 11001] getaddrinfo failed
+2026-08-05 15:33:31.353 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:33:33.359 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:33:35.377 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:33:36.170 | WARNING  | backend.market_agent:fetch_crypto_prices:148 - Binance price feed fallback: [Errno 11001] getaddrinfo failed
+2026-08-05 15:33:37.384 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:33:39.390 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:33:41.203 | WARNING  | backend.market_agent:fetch_crypto_prices:148 - Binance price feed fallback: [Errno 11001] getaddrinfo failed
+2026-08-05 15:33:41.416 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:33:43.426 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:33:45.433 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:33:46.243 | WARNING  | backend.market_agent:fetch_crypto_prices:148 - Binance price feed fallback: [Errno 11001] getaddrinfo failed
+2026-08-05 15:33:47.445 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:33:49.464 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:33:51.267 | WARNING  | backend.market_agent:fetch_crypto_prices:148 - Binance price feed fallback: [Errno 11001] getaddrinfo failed
+2026-08-05 15:33:51.483 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:33:53.504 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:33:55.525 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:33:56.292 | WARNING  | backend.market_agent:fetch_crypto_prices:148 - Binance price feed fallback: [Errno 11001] getaddrinfo failed
+2026-08-05 15:33:57.543 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:33:59.547 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:34:01.325 | WARNING  | backend.market_agent:fetch_crypto_prices:148 - Binance price feed fallback: [Errno 11001] getaddrinfo failed
+2026-08-05 15:34:01.561 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:34:03.566 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:34:05.576 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:34:06.352 | WARNING  | backend.market_agent:fetch_crypto_prices:148 - Binance price feed fallback: [Errno 11001] getaddrinfo failed
+2026-08-05 15:34:07.584 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:34:09.592 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:34:11.371 | WARNING  | backend.market_agent:fetch_crypto_prices:148 - Binance price feed fallback: [Errno 11001] getaddrinfo failed
+2026-08-05 15:34:11.617 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:34:13.626 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:34:15.634 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:34:16.406 | WARNING  | backend.market_agent:fetch_crypto_prices:148 - Binance price feed fallback: [Errno 11001] getaddrinfo failed
+2026-08-05 15:57:39.862 | WARNING  | backend.market_agent:fetch_crypto_prices:148 - Binance price feed fallback: 
+2026-08-05 15:57:40.776 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: 
+2026-08-05 15:57:42.867 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:57:44.881 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:57:46.896 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:57:48.942 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:57:51.003 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:57:53.020 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:57:54.932 | WARNING  | backend.market_agent:fetch_crypto_prices:148 - Binance price feed fallback: [Errno 11001] getaddrinfo failed
+2026-08-05 15:57:55.058 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:57:57.076 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-05 15:57:59.097 | WARNING  | backend.bot_control:start:49 - Telegram polling update error: [Errno 11001] getaddrinfo failed
+2026-08-08 12:01:15.782 | INFO     | backend.main:lifespan:586 -   ULTRA V5.6 ENTERPRISE ENGINE — Live System Online
+2026-08-08 12:01:15.795 | INFO     | backend.risk_and_state:init:498 - [StateManager] Initialized (SQLite backend)
+2026-08-08 12:01:15.801 | SUCCESS  | backend.main:lifespan:600 - [StateManager] Balance recovered: available=$3,562.50 initial=$10,000.00
+2026-08-08 12:01:15.805 | SUCCESS  | backend.main:lifespan:635 - [StateManager] Crash recovery: 3 position(s) restored
+2026-08-08 12:01:15.812 | INFO     | backend.task_runner:start:138 - ⚙️ TaskRunner active
+2026-08-08 12:01:15.814 | SUCCESS  | backend.main:lifespan:674 - ✅ All subsystems active — Auto-Pilot armed
+2026-08-08 12:01:15.815 | INFO     | backend.market_agent:run_forever:317 - 🚀 MarketAgent active — streaming Binance REST tickers
+2026-08-08 12:01:17.153 | SUCCESS  | backend.bot_control:start:43 - 🤖 Telegram bot active — monitoring commands
+2026-08-08 12:01:18.410 | INFO     | backend.main:autopilot_worker:346 - [Auto-Pilot v2] Worker ready — Risk-managed + State-persistent
+2026-08-08 12:01:33.371 | INFO     | backend.main:toggle_autopilot:801 - Auto-Pilot: ACTIVE
+2026-08-08 12:01:48.532 | CRITICAL | backend.risk_and_state:check_circuit_breaker:151 - [CircuitBreaker] TRIPPED — Daily drawdown 5.73% exceeds 5% limit! Start=10000.00, Now=9427.11
+2026-08-08 12:01:48.582 | CRITICAL | backend.main:autopilot_worker:370 - [CircuitBreaker] Auto-Pilot suspended — daily loss limit hit

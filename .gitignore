@@ -1,0 +1,20 @@
+# Python & Environment
+.venv/
+env/
+venv/
+__pycache__/
+*.pyc
+
+# Heavy ML Models & Output Artifacts
+models_cache/
+output/
+temp/
+*.pth
+*.pt
+*.bin
+*.onnx
+
+# Environment & Config
+.env
+.DS_Store
+Thumbs.db

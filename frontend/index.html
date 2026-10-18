@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ULTRA V5.6 ENTERPRISE ENGINE — Live AI Automation Platform</title>
+  <link rel="stylesheet" href="static/style.css">
+  <!-- Official TradingView Widget Library -->
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <!-- Chart.js for Donut Allocation -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <!-- ── TICKER BAR ──────────────────────────────────────────────────────────── -->
+  <div class="ticker-bar">
+    <div class="ticker-label">LIVE STREAM</div>
+    <div class="ticker-track">
+      <div class="ticker-inner" id="ticker-track">
+        <div class="ticker-item"><span class="ticker-symbol">BTC</span> <span class="ticker-price">$--</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── SIDEBAR ─────────────────────────────────────────────────────────────── -->
+  <div class="sidebar">
+    <div class="logo-mark">⚡</div>
+    <button class="nav-btn active" data-tab="dashboard">
+      <span>📊</span>
+      <span class="tooltip">Dashboard</span>
+    </button>
+    <button class="nav-btn" data-tab="trading">
+      <span>📈</span>
+      <span class="tooltip">Trading Engine</span>
+    </button>
+    <button class="nav-btn" data-tab="tasks">
+      <span>⚙️</span>
+      <span class="tooltip">AI Task Agent</span>
+    </button>
+    <button class="nav-btn" data-tab="system">
+      <span>🖥️</span>
+      <span class="tooltip">System Monitor</span>
+    </button>
+  </div>
+
+  <!-- ── MAIN LAYOUT ────────────────────────────────────────────────────────── -->
+  <div class="main">
+
+    <!-- Header -->
+    <div class="header">
+      <div>
+        <div class="header-title">ULTRA V5.6 ENTERPRISE ENGINE</div>
+        <div class="header-subtitle">Global Market Intelligence &amp; Autonomous AI Task Execution Platform</div>
+      </div>
+      <div class="header-right">
+        <span class="mode-badge paper" id="trading-mode-badge">📄 PAPER MODE</span>
+
+        <!-- ═══ AUTO-PILOT TOGGLE ═══ -->
+        <div class="autopilot-control" id="autopilot-control">
+          <span class="autopilot-label">AUTO-PILOT</span>
+          <label class="toggle-switch">
+            <input type="checkbox" id="autopilot-toggle" onchange="onAutoPilotToggle(this)">
+            <span class="toggle-slider"></span>
+          </label>
+          <span class="autopilot-status" id="autopilot-status-text">OFF</span>
+        </div>
+
+        <div class="status-dot"></div>
+        <span class="time-display" id="clock-display">00:00:00 UTC</span>
+      </div>
+    </div>
+
+    <!-- ════════════════════════════════════════════════════════════════════════
+         SECTION 1: OVERVIEW STATS
+         ════════════════════════════════════════════════════════════════════════ -->
+    <div class="section">
+      <div class="grid-4">
+        <div class="card stat-card">
+          <div class="stat-label">PORTFOLIO TOTAL</div>
+          <div class="stat-value blue" id="stat-total-val">$10,000.00</div>
+          <div class="stat-sub" id="stat-pnl">PnL: +$0.00 (0.00%)</div>
+        </div>
+        <div class="card stat-card">
+          <div class="stat-label">AVAILABLE USDT</div>
+          <div class="stat-value green" id="stat-avail-bal">$10,000.00</div>
+          <div class="stat-sub">Ready to deploy</div>
+        </div>
+        <div class="card stat-card">
+          <div class="stat-label">HIGH-CONVICTION ALERT</div>
+          <div class="stat-value amber" id="stat-top-symbol">BTC</div>
+          <div class="stat-sub" id="stat-top-score">Score: 85/100</div>
+        </div>
+        <div class="card stat-card">
+          <div class="stat-label">ACTIVE POSITIONS</div>
+          <div class="stat-value" id="stat-positions-cnt">0</div>
+          <div class="stat-sub" id="stat-invested-val">Invested: $0.00</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ════════════════════════════════════════════════════════════════════════
+         SECTION 2: TRADINGVIEW LIVE CHART & INSTANT TRADE EXECUTION
+         ════════════════════════════════════════════════════════════════════════ -->
+    <div class="section">
+      <div class="grid-3">
+
+        <!-- TradingView Embedded Live Chart -->
+        <div class="card col-2" style="min-height: 420px;">
+          <div class="chart-header">
+            <div class="chart-title" id="active-chart-title">TradingView Live Interactive Chart — BTC/USDT</div>
+            <div class="chart-tabs">
+              <button class="chart-tab active" onclick="switchChartSymbol('BTC')">BTC</button>
+              <button class="chart-tab" onclick="switchChartSymbol('ETH')">ETH</button>
+              <button class="chart-tab" onclick="switchChartSymbol('SOL')">SOL</button>
+              <button class="chart-tab" onclick="switchChartSymbol('BNB')">BNB</button>
+              <button class="chart-tab" onclick="switchChartSymbol('GOLD')">GOLD</button>
+            </div>
+          </div>
+          <div id="tradingview_chart_container" style="height: 360px; width: 100%; border-radius: 8px; overflow: hidden;"></div>
+        </div>
+
+        <!-- Instant Trade Execution Panel -->
+        <div class="card">
+          <div class="chart-title" style="margin-bottom:14px;">Instant Trade Executor</div>
+          <div class="trade-panel">
+            <div class="input-group">
+              <label class="input-label">TARGET ASSET</label>
+              <select class="input-field" id="trade-symbol">
+                <option value="BTC">BTC / USDT</option>
+                <option value="ETH">ETH / USDT</option>
+                <option value="SOL">SOL / USDT</option>
+                <option value="BNB">BNB / USDT</option>
+                <option value="XRP">XRP / USDT</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label class="input-label">AMOUNT (USDT)</label>
+              <input type="number" class="input-field" id="trade-amount" value="100" min="10" step="10">
+            </div>
+            <div class="input-group">
+              <label class="input-label">ORDER TYPE</label>
+              <select class="input-field" id="trade-order-type">
+                <option value="MARKET">MARKET</option>
+                <option value="LIMIT">LIMIT</option>
+              </select>
+            </div>
+            <div class="btn-group" style="margin-top:6px;">
+              <button class="btn btn-buy" id="btn-trade-buy">🚀 BUY / LONG</button>
+              <button class="btn btn-sell" id="btn-trade-sell">📉 SELL / SHORT</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ════════════════════════════════════════════════════════════════════════
+         SECTION 3: GLOBAL OPPORTUNITY SCANNER & POSITIONS
+         ════════════════════════════════════════════════════════════════════════ -->
+    <div class="section">
+      <div class="section-title">Global Opportunity Scanner Engine</div>
+      <div class="grid-3">
+
+        <!-- Live Scanner Cards Grid -->
+        <div class="col-2 grid-2" id="market-cards-container">
+          <!-- Dynamic Scanner Cards injected by app.js -->
+        </div>
+
+        <!-- Portfolio Asset Allocation Donut & Position Table -->
+        <div class="card">
+          <div class="chart-title" style="margin-bottom: 8px;">Asset Allocation</div>
+          <div style="height: 160px; position: relative; margin-bottom: 12px;">
+            <canvas id="allocation-chart"></canvas>
+          </div>
+          <div class="chart-title" style="margin-bottom: 6px; font-size:12px;">Open Positions</div>
+          <div class="table-wrapper" style="max-height: 120px; overflow-y:auto;">
+            <table>
+              <thead>
+                <tr>
+                  <th>Asset</th>
+                  <th>Entry</th>
+                  <th>PnL</th>
+                </tr>
+              </thead>
+              <tbody id="positions-table-body">
+                <tr><td colspan="3" class="td-muted" style="text-align:center;">No open positions</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ════════════════════════════════════════════════════════════════════════
+         SECTION 4: AI COMMAND CENTER — NL QUERY ENGINE + RESPONSE PANEL
+         ════════════════════════════════════════════════════════════════════════ -->
+    <div class="section">
+      <div class="section-title">⚡ Autonomous AI Command Center</div>
+      <div class="grid-2">
+
+        <!-- Left: AI Prompt Input + Rich Response Panel -->
+        <div class="card ai-panel">
+          <div class="chart-header" style="margin-bottom:12px;">
+            <div class="chart-title">🧠 Natural Language Query Engine</div>
+            <div class="ai-live-badge"><span class="live-pulse"></span>LIVE APIs</div>
+          </div>
+
+          <!-- Query Input Bar -->
+          <div class="ai-input-row">
+            <input type="text" class="input-field ai-input" id="ai-command-input"
+              placeholder="e.g. Show biggest gainers, Find trending coins, Get fear &amp; greed index..."
+              onkeydown="if(event.key==='Enter') runNLQuery()">
+            <button class="btn btn-ai-execute" id="btn-run-ai-command" onclick="runNLQuery()">
+              <span id="ai-btn-text">▶ Execute</span>
+            </button>
+          </div>
+
+          <!-- Quick-Prompt Chips -->
+          <div class="ai-chips" id="ai-chips">
+            <button class="chip" onclick="setPromptAndRun('Show trending coins')">🔥 Trending</button>
+            <button class="chip" onclick="setPromptAndRun('Top gainers last 24h')">📈 Gainers</button>
+            <button class="chip" onclick="setPromptAndRun('Top losers 24h')">📉 Losers</button>
+            <button class="chip" onclick="setPromptAndRun('Highest volume coins')">💹 Volume</button>
+            <button class="chip" onclick="setPromptAndRun('Fear and greed index')">🧠 Sentiment</button>
+            <button class="chip" onclick="setPromptAndRun('Latest crypto news')">📰 News</button>
+            <button class="chip" onclick="setPromptAndRun('Bitcoin detailed info')">₿ BTC</button>
+            <button class="chip" onclick="setPromptAndRun('Run system cleanup')">🧹 Cleanup</button>
+          </div>
+
+          <!-- AI Response Card — Rich Data Table -->
+          <div class="ai-response-panel" id="ai-response-panel">
+            <div class="ai-response-placeholder">
+              <div class="ai-placeholder-icon">🤖</div>
+              <div>Type a prompt or tap a Quick-Action chip above to get live data</div>
+            </div>
+          </div>
+
+          <!-- Script Runner -->
+          <div class="script-runner-row" style="margin-top:12px;">
+            <select class="input-field" id="script-selector" style="flex:1;">
+              <option value="">Select Pre-defined Script from tasks/...</option>
+            </select>
+            <button class="btn btn-secondary" style="padding:8px 14px;" onclick="runSelectedScript()">Run File</button>
+          </div>
+
+          <!-- Terminal Log -->
+          <div class="console" id="task-console" style="margin-top:10px; max-height:160px;">
+            <div class="console-line info">[System] AI Command Terminal ready. Type a prompt or select a script...</div>
+          </div>
+        </div>
+
+        <!-- Right: Hardware Metrics + Alert Feed -->
+        <div class="card">
+          <div class="chart-header">
+            <div class="chart-title">🖥️ Hardware Metrics &amp; Mobile Alerts</div>
+          </div>
+
+          <!-- System Gauges -->
+          <div class="gauge-row" style="margin-bottom:16px;">
+            <div class="gauge-item">
+              <div class="gauge-label"><span>CPU Utilization</span><span id="gauge-cpu-val">0%</span></div>
+              <div class="gauge-track"><div class="gauge-fill cpu" id="gauge-cpu-fill" style="width: 0%;"></div></div>
+            </div>
+            <div class="gauge-item">
+              <div class="gauge-label"><span>RAM Memory</span><span id="gauge-ram-val">0%</span></div>
+              <div class="gauge-track"><div class="gauge-fill ram" id="gauge-ram-fill" style="width: 0%;"></div></div>
+            </div>
+            <div class="gauge-item">
+              <div class="gauge-label"><span>Disk Space</span><span id="gauge-disk-val">0%</span></div>
+              <div class="gauge-track"><div class="gauge-fill disk" id="gauge-disk-fill" style="width: 0%;"></div></div>
+            </div>
+          </div>
+
+          <!-- Live Log Stream Terminal -->
+          <div class="chart-title" style="margin-bottom:6px; font-size:12px;">
+            🔴 Live Log Stream (SSE)
+            <span class="sse-dot" id="sse-status-dot"></span>
+          </div>
+          <div class="console stream-console" id="sse-log-console" style="max-height:160px; font-size:11px;">
+            <div class="console-line muted">[SSE] Connecting to log stream...</div>
+          </div>
+
+          <!-- Alert Feed -->
+          <div class="chart-title" style="margin:10px 0 6px; font-size:12px;">📡 Mobile Alert Feed</div>
+          <div class="alert-feed" id="alert-feed">
+            <div class="alert-item INFO">
+              <div class="alert-icon">ℹ️</div>
+              <div class="alert-content">
+                <div class="alert-title">Engine Active</div>
+                <div class="alert-body">Connected to live WebSocket &amp; Telegram Bot</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Toast Notification System -->
+  <div id="toast-container"></div>
+
+  <!-- Auto-Pilot Status Overlay Banner -->
+  <div class="autopilot-banner" id="autopilot-banner" style="display:none;">
+    <span class="ap-pulse"></span>
+    <strong>AUTO-PILOT ACTIVE</strong> — Scanning signals every 30s · Score &gt;75 → BUY · Score &lt;30 → SELL
+  </div>
+
+  <!-- Frontend JavaScript -->
+  <script src="static/app.js"></script>
+</body>
+</html>
